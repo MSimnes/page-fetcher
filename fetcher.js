@@ -1,6 +1,8 @@
 const argv = process.argv.slice(2);
 const request = require('request');
 const fs = require('fs');
+const URL = argv[0];
+const localFile = argv[1];
 
 // function to fetch a response body from the requested URL and use a callback function to write the file to a local 
 
@@ -28,4 +30,4 @@ const writeToLocal = function(localPath, capturedBody) {
   });
 };
 
-fetch(argv[0], argv[1]);
+fetch(URL, localFile);
