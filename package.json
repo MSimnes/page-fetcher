@@ -1,0 +1,22 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "App to fetch data from first command line arg and write it to second command line arg",
+  "main": "fetcher.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSimnes/page-fetcher.git"
+  },
+  "author": "@MSimnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSimnes/page-fetcher/issues"
+  },
+  "homepage": "https://github.com/MSimnes/page-fetcher#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
